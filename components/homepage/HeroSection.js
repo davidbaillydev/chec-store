@@ -45,7 +45,7 @@ export default function HeroSection() {
               </p>
               <Link href="/collection">
                 <a className="d-flex align-items-center bg-transparent border border-color-white h-56 px-5 font-color-white hero-btn">
-                  Shop now
+                Acheter maintenant
                 </a>
               </Link>
             </div>

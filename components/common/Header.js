@@ -142,12 +142,12 @@ class Header extends Component {
         <div className="d-flex align-items-center">
           { customer && customer.firstname && (
             <span className="mr-2 font-weight-regular">
-              Hi, { customer.firstname }!
+              Bienvenue, { customer.firstname }!
             </span>
           ) }
           <Link href="/account">
             <a className="font-color-black mx-2">
-              My account
+              Mon Compte
             </a>
           </Link>
           <button
@@ -155,7 +155,7 @@ class Header extends Component {
             type="button"
             onClick={this.handleLogout}
           >
-            Logout
+            Déconnexion
           </button>
         </div>
       );
@@ -164,7 +164,7 @@ class Header extends Component {
     return (
       <Link href="/login">
         <a className="font-color-black login">
-          Login
+          Connexion
         </a>
       </Link>
     );
@@ -185,10 +185,10 @@ class Header extends Component {
         >
           <div className="d-none d-sm-flex">
             <Link href="/collection">
-              <a className="mr-4 font-color-black">Shop</a>
+              <a className="mr-4 font-color-black">Boutique</a>
             </Link>
             <Link href="/about">
-              <a className="font-color-black">About</a>
+              <a className="font-color-black">À Propos</a>
             </Link>
           </div>
           <div className="logo-container">
@@ -204,6 +204,7 @@ class Header extends Component {
                   src="/images/commerce.svg"
                   className="logo cursor-pointer"
                   alt="Logo"
+                  
                 />
               </a>
             </Link>
