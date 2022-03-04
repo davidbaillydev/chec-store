@@ -185,12 +185,17 @@ class Header extends Component {
         >
           <div className="d-none d-sm-flex">
             <Link href="/collection">
-              <a className="mr-4 font-color-black">Boutique</a>
+              <a className="mr-4 font-color-black">NOTRE BOUTIQUE </a>
             </Link>
             <Link href="/about">
-              <a className="font-color-black">À Propos</a>
+              <a className="mr-4 font-color-black">À PROPOS DE ATAQIAT</a>
+            </Link>
+            <Link href="/conseils">
+              <a className="font-color-black">NOS CONSEILS DE SOINS </a>
             </Link>
           </div>
+
+          
           <div className="logo-container">
             <img
               src={`/icon/${showMobileMenu ? 'cross' : 'menu'}.svg`}
@@ -201,10 +206,9 @@ class Header extends Component {
             <Link href="/">
               <a>
                 <img
-                  src="/images/commerce.svg"
+                  src="/images/ATAQIAT-2.svg"
                   className="logo cursor-pointer"
                   alt="Logo"
-                  
                 />
               </a>
             </Link>
